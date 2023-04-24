@@ -1,6 +1,6 @@
 const loader = document.querySelector("#loader");
 const video = document.querySelector("#videoenter");
-video.src = '/Inicio/videos/logo_horizontal.mp4'
+video.src = '../Inicio/videos/logo_horizontal.mp4'
 video.play();
 video.setAttribute('muted','');
 video.addEventListener('ended', (e)=>{
